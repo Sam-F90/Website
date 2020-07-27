@@ -42,7 +42,7 @@ ul {
     width: 50px;
     text-decoration: none;
     color: none;
-    transition: all .4s ease-in-out; }
+    transition: all 0.4s ease-in-out; }
     #main a:hover {
       transform: scale(1.2); }
   #main .fa-linkedin-in {
@@ -57,7 +57,7 @@ ul {
   padding: 0px;
   padding-bottom: 1px;
   border-bottom: 3px solid transparent;
-  transition: all .5s;
+  transition: all 0.5s;
   color: white; }
   #navbarMenu a:hover {
     border-bottom: white solid 3px; }
@@ -68,3 +68,11 @@ ul {
 #about-me {
   font-family: "Karla", sans-serif;
   background: #d3d3d3; }
+
+#technologies {
+  background-color: rgba(0, 0, 0, 0.5); }
+  #technologies .tech-icon {
+    margin: 10px 25px;
+    color: white; }
+  #technologies p {
+    color: white; }

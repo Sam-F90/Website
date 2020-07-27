@@ -3,42 +3,40 @@ $github-color: #6cc644;
 $pdf-color: #ff0000;
 
 .modal-open {
-    overflow: scroll;
+  overflow: scroll;
 }
 
-body{
-    background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat center right/cover;
-    background-attachment: fixed;    
-    height: 100vh;
-    font-family: "Dosis", sans-serif;
-    min-width: 375px;
+body {
+  background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat
+    center right/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: "Dosis", sans-serif;
+  min-width: 375px;
+}
 
-    
-  }
-
-h1{
+h1 {
   color: white;
   /* margin-bottom: 10rem; */
 }
-.main-nav{
+.main-nav {
   position: fixed;
 }
 
-.section-header{
-  &-light{
+.section-header {
+  &-light {
     display: inline-block;
     color: white;
     border-bottom: solid 3px white;
   }
-  &-dark{
+  &-dark {
     display: inline-block;
     color: black;
     border-bottom: solid 3px black;
   }
 }
 
-
-.i{
+.i {
   margin: 0 auto;
   position: absolute;
   left: 50%;
@@ -46,57 +44,69 @@ h1{
 }
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
-#main{
+#main {
   padding-bottom: 200px;
 
-  a{
+  a {
     background-color: white;
     height: 50px;
     width: 50px;
     text-decoration: none;
     color: none;
-    transition: all .4s ease-in-out;
-        
-        &:hover{
-            transform: scale(1.2);
-        }
+    transition: all 0.4s ease-in-out;
 
+    &:hover {
+      transform: scale(1.2);
     }
+  }
 
-    .fa-linkedin-in {
-        color: $linkedin-color;
-      }
-      .fa-github {
-        color: $github-color;
-      }
-      .fa-file-pdf {
-        color: $pdf-color;
-      }
+  .fa-linkedin-in {
+    color: $linkedin-color;
+  }
+  .fa-github {
+    color: $github-color;
+  }
+  .fa-file-pdf {
+    color: $pdf-color;
+  }
 }
 
-#navbarMenu{
-  a{
+#navbarMenu {
+  a {
     margin-right: 20px;
     padding: 0px;
     padding-bottom: 1px;
     border-bottom: 3px solid transparent;
-    transition: all .5s;
+    transition: all 0.5s;
     color: white;
 
-    &:hover{
+    &:hover {
       border-bottom: white solid 3px;
     }
   }
 
-  .navbar-brand-custom{
-      color: white;
+  .navbar-brand-custom {
+    color: white;
   }
 }
 
-#about-me{
+#about-me {
   font-family: "Karla", sans-serif;
   background: #d3d3d3;
+}
 
+#technologies {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .tech-icon {
+    margin: 10px 25px;
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
 }
