@@ -100,6 +100,7 @@ ul {
 #about-me {
   font-family: "Karla", sans-serif;
   background: #d3d3d3;
+  font-size: large;
 }
 
 #technologies {
@@ -113,4 +114,22 @@ ul {
   p {
     color: white;
   }
+}
+
+#projects {
+  background: #d4d4d4;
+}
+
+.projectbox{
+  display: block;
+  border: solid black 1px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.img-square-wrapper{
+  width: 100%;
 }
