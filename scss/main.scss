@@ -1,0 +1,102 @@
+$linkedin-color: #2867b2;
+$github-color: #6cc644;
+$pdf-color: #ff0000;
+
+.modal-open {
+    overflow: scroll;
+}
+
+body{
+    background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat center right/cover;
+    background-attachment: fixed;    
+    height: 100vh;
+    font-family: "Dosis", sans-serif;
+    min-width: 375px;
+
+    
+  }
+
+h1{
+  color: white;
+  /* margin-bottom: 10rem; */
+}
+.main-nav{
+  position: fixed;
+}
+
+.section-header{
+  &-light{
+    display: inline-block;
+    color: white;
+    border-bottom: solid 3px white;
+  }
+  &-dark{
+    display: inline-block;
+    color: black;
+    border-bottom: solid 3px black;
+  }
+}
+
+
+.i{
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+ul {
+  list-style: none; }
+
+#main{
+  padding-bottom: 200px;
+
+  a{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: none;
+    transition: all .4s ease-in-out;
+        
+        &:hover{
+            transform: scale(1.2);
+        }
+
+    }
+
+    .fa-linkedin-in {
+        color: $linkedin-color;
+      }
+      .fa-github {
+        color: $github-color;
+      }
+      .fa-file-pdf {
+        color: $pdf-color;
+      }
+}
+
+#navbarMenu{
+  a{
+    margin-right: 20px;
+    padding: 0px;
+    padding-bottom: 1px;
+    border-bottom: 3px solid transparent;
+    transition: all .5s;
+    color: white;
+
+    &:hover{
+      border-bottom: white solid 3px;
+    }
+  }
+
+  .navbar-brand-custom{
+      color: white;
+  }
+}
+
+#about-me{
+  font-family: "Karla", sans-serif;
+  background: #d3d3d3;
+
+}
