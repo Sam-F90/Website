@@ -6,7 +6,7 @@ $pdf-color: #ff0000;
   overflow: scroll;
 }
 
-#temp{
+#temp {
   background: #d4d4d4;
 }
 
@@ -118,9 +118,14 @@ ul {
 
 #projects {
   background: #d4d4d4;
+
+  img {
+    width: 200px;
+    padding: 20px 0 20px 20px;
+  }
 }
 
-.projectbox{
+.projectbox {
   display: block;
   border: solid black 1px;
 }
@@ -130,6 +135,15 @@ ul {
   flex: 1 1 auto;
 }
 
-.img-square-wrapper{
-  width: 100%;
+.card {
+  font-size: large;
+  transition: all 1s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+#contact {
+  height: 30vh;
 }
