@@ -18,6 +18,10 @@ h1 {
 .main-nav {
   position: fixed; }
 
+.fa-bars {
+  color: #fff;
+  font-size: 28px; }
+
 #main-nav {
   background: rgba(0, 0, 0, 0.3); }
 

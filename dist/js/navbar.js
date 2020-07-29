@@ -2,7 +2,7 @@
     $(document).ready(function(){
   
       // hide .navbar first
-    //   $(".navbar-fade").hide();
+      $(".navbar-fade").hide();
   
       // fade in .navbar
       $(function () {
