@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat center right/cover;
+  background: url(../img/desk.jpg) no-repeat center right/cover;
   background-attachment: fixed;
   height: 100vh;
   font-family: "Dosis", sans-serif;
@@ -17,6 +17,9 @@ h1 {
 
 .main-nav {
   position: fixed; }
+
+#main-nav {
+  background: rgba(0, 0, 0, 0.3); }
 
 .section-header-light {
   display: inline-block;
@@ -64,6 +67,7 @@ ul {
   font-size: 1.5rem; }
 
 #main {
+  background: rgba(0, 0, 0, 0.3);
   padding-bottom: 200px; }
   #main h1 {
     padding-bottom: 180px; }
@@ -92,16 +96,6 @@ ul {
     color: white; }
   #technologies p {
     color: white; }
-  #technologies .fa-java {
-    color: #ff922b; }
-  #technologies .fa-js {
-    color: #ff922b; }
-  #technologies .fa-html5 {
-    color: #f16529; }
-  #technologies .fa-css3-alt {
-    color: #2965f1; }
-  #technologies .fa-python {
-    color: #4b8bbe; }
 
 #projects {
   background: #d4d4d4; }
@@ -121,7 +115,7 @@ ul {
   font-size: large;
   transition: all 1s; }
   .card:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05) translateZ(0); }
 
 #contact {
   background-color: rgba(0, 0, 0, 0.5); }

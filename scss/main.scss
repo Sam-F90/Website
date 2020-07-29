@@ -27,7 +27,9 @@ html {
 // }
 
 body {
-  background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat
+  // background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat
+  //   center right/cover;
+  background: url(../img/desk.jpg) no-repeat
     center right/cover;
   background-attachment: fixed;
   height: 100vh;
@@ -41,6 +43,10 @@ h1 {
 }
 .main-nav {
   position: fixed;
+}
+
+#main-nav{
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .section-header {
@@ -102,6 +108,7 @@ ul {
 }
 
 #main {
+  background: rgba(0, 0, 0, 0.3);
   padding-bottom: 200px;
   h1{
     padding-bottom: 180px;
@@ -144,25 +151,25 @@ ul {
     color: white;
   }
 
-  .fa-java{
-    color: $java-color;
-  }
+  // .fa-java{
+  //   color: $java-color;
+  // }
 
-  .fa-js{
-    color: $js-color;
-  }
+  // .fa-js{
+  //   color: $js-color;
+  // }
 
-  .fa-html5{
-    color: $html5-color;
-  }
+  // .fa-html5{
+  //   color: $html5-color;
+  // }
 
-  .fa-css3-alt{
-    color: $css3-color;
-  }
+  // .fa-css3-alt{
+  //   color: $css3-color;
+  // }
 
-  .fa-python{
-    color: $python-color;
-  }
+  // .fa-python{
+  //   color: $python-color;
+  // }
 }
 
 #projects {
@@ -189,7 +196,7 @@ ul {
   transition: all 1s;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translateZ(0);
   }
 }
 
