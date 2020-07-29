@@ -2,13 +2,29 @@ $linkedin-color: #2867b2;
 $github-color: #6cc644;
 $pdf-color: #ff0000;
 
-.modal-open {
-  overflow: scroll;
+$java-color: #ff922b;
+$python-color: #4b8bbe;
+$js-color: #ff922b;
+$html5-color: #f16529;
+$css3-color: #2965f1;
+$web-color: #90ee90;
+
+*{
+  font-family: 'Open Sans', sans-serif;
+
 }
 
-#temp {
-  background: #d4d4d4;
+html {
+  scroll-behavior: smooth;
 }
+// .modal-open {
+//   overflow: scroll;
+// }
+
+
+// .temp{
+//   position: fixed;
+// }
 
 body {
   background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat
@@ -51,9 +67,7 @@ ul {
   list-style: none;
 }
 
-#main {
-  padding-bottom: 200px;
-
+.link{
   a {
     background-color: white;
     height: 50px;
@@ -78,6 +92,22 @@ ul {
   }
 }
 
+.nav-item{
+  font-size: 1.4rem;
+}
+
+#brand-custom{
+  color: white;
+  font-size: 1.5rem;
+}
+
+#main {
+  padding-bottom: 200px;
+  h1{
+    padding-bottom: 180px;
+  }
+}
+
 #navbarMenu {
   a {
     margin-right: 20px;
@@ -91,10 +121,9 @@ ul {
       border-bottom: white solid 3px;
     }
   }
+  font-family: 'Abril Fatface', cursive;
 
-  .navbar-brand-custom {
-    color: white;
-  }
+
 }
 
 #about-me {
@@ -113,6 +142,26 @@ ul {
 
   p {
     color: white;
+  }
+
+  .fa-java{
+    color: $java-color;
+  }
+
+  .fa-js{
+    color: $js-color;
+  }
+
+  .fa-html5{
+    color: $html5-color;
+  }
+
+  .fa-css3-alt{
+    color: $css3-color;
+  }
+
+  .fa-python{
+    color: $python-color;
   }
 }
 
@@ -145,5 +194,23 @@ ul {
 }
 
 #contact {
-  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  p{
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: #C4C4FF
+  }
+}
+
+footer{
+  background: #d4d4d4;
+  height: 8vh;
+}
+
+.line{
+  background: white;
+  width: 300px;
 }

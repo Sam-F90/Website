@@ -28,13 +28,14 @@
       href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <a href="#" class="navbar-brand navbar-brand-custom"> Samuel Flynn</a>
+    <nav class="navbar navbar-expand-sm navbar-ligh">
+      <a href="#" class="navbar-brand navbar-brand-custom" id ="brand-custom"> Samuel Flynn</a>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -44,12 +45,10 @@
       </button>
       <div id="navbarMenu" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Technologies</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#technologies" class="nav-link">Technologies</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -57,44 +56,47 @@
     <section id="main" class="justify-content-center align-middle h-100 row">
       <div class="container text-center my-auto" id="header-content">
         <ul class="p-0 m-0 d-flex justify-content-center">
-          <li class="mx-2">
+          <li class="mx-2 link">
             <a
-              href=""
+              href="https://www.linkedin.com/in/samuel-flynn-023608150/"
               class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
               ><i class="fab fa-linkedin-in fa-2x"></i
             ></a>
           </li>
-          <li class="mx-2">
+          <li class="mx-2 link">
             <a
-              href=""
+              href="https://github.com/Sam-F90"
               class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
               ><i class="fab fa-github fa-2x"></i
             ></a>
           </li>
-          <li class="mx-2">
+          <li class="mx-2 link">
             <a
-              href=""
+              href="/dist/Resume.pdf"
               class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
               ><i class="fas fa-file-pdf fa-2x"></i
             ></a>
           </li>
         </ul>
-        <h1>Samuel Flynn</h1>
+        <h1 >Samuel Flynn</h1>
       </div>
     </section>
     <!-- <div class="container h-100 d-flex align-items-center justify-content-center">
     <h1>Sameul Flynn</h1>
   </div> -->
 
-    <section class="row" id="about-me">
+    <section class="row pb-5" id="about-me">
       <div class="container text-center mt-3">
         <h3 class="section-header-dark">About Me</h3>
 
         <div class="row py-5">
-          <div class="col-md">
-            <img src="..\img\profile.jpg" class="img-fluid rounded" alt="" />
+          <div class="col-md-5 h-100">
+            <img src="..\img\profile.jpg" class=" img-fluid rounded" alt="" />
           </div>
-          <div class="col-md mt-3 mt-lg-0">
+          <div class="col-md-7 mt-3 mt-lg-0">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
               dolore fugiat! Similique porro nulla sapiente nostrum. Voluptatem
@@ -113,7 +115,7 @@
 
     <section id="technologies" class="row">
       <div class="container text-center pt-3">
-        <h3 class="section-header-light">Technologies</h3>
+        <h3 class="section-header-light mt-2 mb-4">Technologies</h3>
 
         <div class="container m-auto row">
           <div class="col-md">
@@ -151,9 +153,9 @@
       </div>
     </section>
 
-    <section id="projects" class="row pb-3">
+    <section id="projects" class="row pb-5">
       <div class="container text-center pt-3">
-        <h3 class="section-header-dark">Projects</h3>
+        <h3 class="section-header-dark mt-2 mb-4">Recent Projects</h3>
         <div class="row">
           <div class="col-12 mt-3">
             <div class="card">
@@ -229,11 +231,48 @@
     </section>
 
     <section id="contact" class="row">
-      <div class="container text-center pt-3">
+      <div class="container text-center pt-3 pb-5">
         <h3 class="section-header-light">Contact Me</h3>
-        <p>Feel free to contact me</p>
+        <p class = "mt-5">You can contact me at <a href="mailto:SamuelJamesFlynn@gmail.com">SamuelJamesFlynn@gmail.com</a></p>
+        <hr class = "line"></hr>
+        <p>Or Message me on Linked In</p>
+        <hr class = "line"></hr>
+        <p class = "pb-2">I am currently looking for employment and open to any location</p>
+
+        <ul class="p-0 m-0 d-flex justify-content-center">
+          <li class="mx-2 link">
+            <a
+              href="https://www.linkedin.com/in/samuel-flynn-023608150/"
+              class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
+              ><i class="fab fa-linkedin-in fa-2x"></i
+            ></a>
+          </li>
+          <li class="mx-2 link">
+            <a
+              href="https://github.com/Sam-F90"
+              class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li class="mx-2 link">
+            <a
+              href=""
+              class="d-flex rounded-circle align-items-center justify-content-center mx-auto"
+              target="_blank"
+              ><i class="fas fa-file-pdf fa-2x"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </section>
+
+    <footer class = "d-flex row">
+      <div class="container text-center my-auto">
+Copyright © 2020 Samuel Flynn. All rights reserved.
+      </div>
+    </footer>
 
     <!-- filler -->
     <!-- <section>
@@ -257,6 +296,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="/dist/js/navbar.js"></script>
   </body>
 </html>
 <!-- <div class="container">

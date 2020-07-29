@@ -1,8 +1,8 @@
-.modal-open {
-  overflow: scroll; }
+* {
+  font-family: 'Open Sans', sans-serif; }
 
-#temp {
-  background: #d4d4d4; }
+html {
+  scroll-behavior: smooth; }
 
 body {
   background: url(../../img/conor-luddy-VTEIX4Urmq0-unsplash.jpg) no-repeat center right/cover;
@@ -37,36 +37,48 @@ h1 {
 ul {
   list-style: none; }
 
+.link a {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  color: none;
+  transition: all 0.4s ease-in-out; }
+  .link a:hover {
+    transform: scale(1.2); }
+
+.link .fa-linkedin-in {
+  color: #2867b2; }
+
+.link .fa-github {
+  color: #6cc644; }
+
+.link .fa-file-pdf {
+  color: #ff0000; }
+
+.nav-item {
+  font-size: 1.4rem; }
+
+#brand-custom {
+  color: white;
+  font-size: 1.5rem; }
+
 #main {
   padding-bottom: 200px; }
-  #main a {
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    text-decoration: none;
-    color: none;
-    transition: all 0.4s ease-in-out; }
-    #main a:hover {
-      transform: scale(1.2); }
-  #main .fa-linkedin-in {
-    color: #2867b2; }
-  #main .fa-github {
-    color: #6cc644; }
-  #main .fa-file-pdf {
-    color: #ff0000; }
+  #main h1 {
+    padding-bottom: 180px; }
 
-#navbarMenu a {
-  margin-right: 20px;
-  padding: 0px;
-  padding-bottom: 1px;
-  border-bottom: 3px solid transparent;
-  transition: all 0.5s;
-  color: white; }
-  #navbarMenu a:hover {
-    border-bottom: white solid 3px; }
-
-#navbarMenu .navbar-brand-custom {
-  color: white; }
+#navbarMenu {
+  font-family: 'Abril Fatface', cursive; }
+  #navbarMenu a {
+    margin-right: 20px;
+    padding: 0px;
+    padding-bottom: 1px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s;
+    color: white; }
+    #navbarMenu a:hover {
+      border-bottom: white solid 3px; }
 
 #about-me {
   font-family: "Karla", sans-serif;
@@ -80,6 +92,16 @@ ul {
     color: white; }
   #technologies p {
     color: white; }
+  #technologies .fa-java {
+    color: #ff922b; }
+  #technologies .fa-js {
+    color: #ff922b; }
+  #technologies .fa-html5 {
+    color: #f16529; }
+  #technologies .fa-css3-alt {
+    color: #2965f1; }
+  #technologies .fa-python {
+    color: #4b8bbe; }
 
 #projects {
   background: #d4d4d4; }
@@ -102,4 +124,17 @@ ul {
     transform: scale(1.05); }
 
 #contact {
-  height: 30vh; }
+  background-color: rgba(0, 0, 0, 0.5); }
+  #contact p {
+    color: white; }
+  #contact a {
+    text-decoration: none;
+    color: #C4C4FF; }
+
+footer {
+  background: #d4d4d4;
+  height: 8vh; }
+
+.line {
+  background: white;
+  width: 300px; }
