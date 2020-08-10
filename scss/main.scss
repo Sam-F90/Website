@@ -200,6 +200,10 @@ ul {
   font-size: large;
   transition: all 1s;
 
+  p{
+    font-size: medium;
+  }
+
   &:hover {
     transform: scale(1.05) translateZ(0);
   }

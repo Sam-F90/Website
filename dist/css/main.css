@@ -119,6 +119,8 @@ ul {
 .card {
   font-size: large;
   transition: all 1s; }
+  .card p {
+    font-size: medium; }
   .card:hover {
     transform: scale(1.05) translateZ(0); }
 
