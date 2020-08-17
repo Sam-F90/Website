@@ -93,6 +93,8 @@ ul {
   font-family: "Karla", sans-serif;
   background: #d3d3d3;
   font-size: medium; }
+  #about-me ul {
+    list-style: circle; }
 
 #technologies {
   background-color: rgba(0, 0, 0, 0.5); }

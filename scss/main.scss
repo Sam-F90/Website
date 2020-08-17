@@ -142,6 +142,10 @@ ul {
   font-family: "Karla", sans-serif;
   background: #d3d3d3;
   font-size: medium;
+  
+  ul {
+    list-style: circle;
+  }
 }
 
 #technologies {
@@ -156,25 +160,6 @@ ul {
     color: white;
   }
 
-  // .fa-java{
-  //   color: $java-color;
-  // }
-
-  // .fa-js{
-  //   color: $js-color;
-  // }
-
-  // .fa-html5{
-  //   color: $html5-color;
-  // }
-
-  // .fa-css3-alt{
-  //   color: $css3-color;
-  // }
-
-  // .fa-python{
-  //   color: $python-color;
-  // }
 }
 
 #projects {
